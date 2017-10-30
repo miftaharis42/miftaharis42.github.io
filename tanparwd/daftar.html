@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aris Office</title>
+    <link rel="shortcut icon" href="img/iniaris.jpg">
+    <link href="css/business-casual.css" rel="stylesheet">
+      <script type="text/javascript" src="validasi.js">
+      </script>
+  </head>
+  <body>
+      <div align="Center">
+          <h1><font color="white">Aris Office</h1>
+          <h2>Jl.H.M.Alif no 3 Rt 3 Rw 5 kel Kukusan kec Beji Depok 16425<h2>
+      </div>
+      <div class="dropdowncontainer" align="center">
+  <table>
+    <th>| <a href="index.html">HOME</a></th>
+    <th>| <a href="about.html">ABOUT</a></th>
+    <th>| <a href="daftar.html">DAFTAR</a></th>
+    <th>| <a href="login.html">LOGIN</a></th>
+    <th>| <a href="contact">CONTACT</a></th>
+    <th>| </th>
+  </table>
+  <div align=center id="main" class="active">
+      <font face=verdana size=4 color=blue>
+      <h1>Form Pendaftaran Aris Office</h1>
+  <form>
+    <table width="225" cellpadding="4">
+    <tr><td>Nama:</td><td><input type="text" name="nama" id="nama"></td></tr>
+    <tr><td>Email:</td><td><input type="text" name="email" id="email"></td></tr>
+    <tr><td>NoTlp:</td><td><input type="text" name="nohp" id="nohp"></td></tr>
+    <tr><td>Kelas:</td><td><input type="text" name="kelas" id="kelas"></td></tr>
+    <tr><td>Alasan:</td><td><input type="text" name="alasan" id="alasan"></td></tr>
+    <tr><td><a href="index.html"><button type="button">Home</td></button><td><button type="button" class="submit" onclick="formvalidasi()">Submit</button></td></tr>
+  </table>
+          </form>
+          <form>
+          <div class="form-hasil">
+            <h2 id="tampil_title"></h2>
+            <p id="tampil_nama"></p>
+            <p id="tampil_email"></p>
+            <p id="tampil_nohp"></p>
+            <p id="tampil_kelas"></p>
+            <p id="tampil_alasan"></p>
+          </div>
+      </div>
+  </form>
+
+              <p class="m-0">Copyright &copy; Miftakhul Aris SI 2016</p>
+            </div>
+          </footer>
+  </body>
+</html>
